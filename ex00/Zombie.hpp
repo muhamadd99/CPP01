@@ -6,7 +6,7 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/21 16:13:27 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/10/21 17:16:02 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/10/21 21:52:28 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,9 @@ public:
 	Zombie(std::string zombieName);
 	~Zombie();
 	void	announce(void);
-	Zombie*	newZombie( std:: string name );
-	void	randomChump( std::string name);
 };
+
+Zombie*	newZombie( std:: string name );
+void	randomChump( std::string name );
 
 #endif
