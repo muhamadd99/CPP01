@@ -6,14 +6,14 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 15:34:43 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/10/22 16:40:30 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/10/23 17:28:25 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "HumanB.hpp"
 #include <iostream>
 
-HumanB::HumanB(std::string nameP) : name(nameP), weapon(NULL)
+HumanB::HumanB(std::string nameP) : name(nameP)//, weapon(NULL)
 {
 	
 }

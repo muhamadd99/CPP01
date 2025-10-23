@@ -66,6 +66,7 @@ void	Harl::complainFiltered(std::string level)
 			// fall through 
 		case 3:
 			error();
+			//fall through
 			break;
 		default:
 			std::cout << "[ Probably complaining about insignificant problems ]" << std::endl;

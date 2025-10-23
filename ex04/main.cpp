@@ -6,7 +6,7 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 21:42:31 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/10/23 11:07:28 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/10/23 22:04:57 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ int main(int ac, char **av)
 {
 	if (ac != 4)
 	{
-		std::cerr << "not enough param" << std::endl; 
+		std::cerr << "not enough param. buguo param" << std::endl; 
 		return (1);
 	}
 	std::string	inFileName = av[1];
@@ -66,7 +66,7 @@ int main(int ac, char **av)
 	std::string	replacing = av[3];
 	if (inFileName.empty() || replaceable.empty())
 	{
-		std::cerr << "Error: s1 cannot be empty" << std::endl;
+		std::cerr << "Error: parameters cannot be empty. bu neng wei kong" << std::endl;
 		return (1);
 	}
 	replaceInFile(inFileName, replaceable, replacing);

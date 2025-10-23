@@ -6,7 +6,7 @@
 /*   By: mbani-ya <mbani-ya@student.42kl.edu.my>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/22 16:56:58 by mbani-ya          #+#    #+#             */
-/*   Updated: 2025/10/22 18:00:57 by mbani-ya         ###   ########.fr       */
+/*   Updated: 2025/10/23 16:32:59 by mbani-ya         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,6 +36,8 @@ int main()
 	
 }
 
+// #include <iostream>
+
 // int main()
 // {
 //     {
@@ -53,6 +55,8 @@ int main()
 //         bob.attack();  // "Bob attacks with their broken club"
 //     }
     
+// 	std::cout << "\nPointer case" << std::endl;
+	
 //     {
 //         // Test HumanB (Pointer) - CAN change weapon
 //         Weapon clubB = Weapon("crude spiked club");
